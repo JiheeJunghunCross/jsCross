@@ -1,0 +1,72 @@
+@import url("//db.onlinewebfonts.com/c/d056bcf9dfd6ac922b71535de69e8827?family=Posterama");
+@import url("//db.onlinewebfonts.com/c/84693c6ac1f359fe8a4ac49b69f492dd?family=Gotham+Light");
+@import url("./reset.css");
+@font-face {
+  font-family: "Posterama";
+  src: url("//db.onlinewebfonts.com/t/d056bcf9dfd6ac922b71535de69e8827.eot");
+  src: url("//db.onlinewebfonts.com/t/d056bcf9dfd6ac922b71535de69e8827.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/d056bcf9dfd6ac922b71535de69e8827.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/d056bcf9dfd6ac922b71535de69e8827.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/d056bcf9dfd6ac922b71535de69e8827.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/d056bcf9dfd6ac922b71535de69e8827.svg#Posterama")
+      format("svg");
+}
+@font-face {
+  font-family: "Gotham Light";
+  src: url("//db.onlinewebfonts.com/t/84693c6ac1f359fe8a4ac49b69f492dd.eot");
+  src: url("//db.onlinewebfonts.com/t/84693c6ac1f359fe8a4ac49b69f492dd.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/84693c6ac1f359fe8a4ac49b69f492dd.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/84693c6ac1f359fe8a4ac49b69f492dd.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/84693c6ac1f359fe8a4ac49b69f492dd.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/84693c6ac1f359fe8a4ac49b69f492dd.svg#Gotham Light")
+      format("svg");
+}
+body {
+  background: url("../../public/main_desert.jpg") no-repeat center center fixed;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+p.title {
+  font-family: "Posterama";
+  font-size: 22rem;
+  text-align: center;
+  text-shadow: 6px 13px 8px grey;
+  font-style: normal;
+  /* margin-top: 15%; */
+  margin-bottom: 1.5%;
+}
+p.subtitle {
+  font-family: "GothamLight";
+  font-size: 4.3rem;
+  text-align: center;
+  font-style: normal;
+  text-shadow: 0px 7px 10px grey;
+  letter-spacing: 20px;
+  margin-bottom: 3.1%;
+}
+button.startBtn {
+  display: block;
+  font-family: "GothamLight";
+  font-size: 3.3rem;
+  text-align: center;
+  font-style: normal;
+  padding: 55px 80px;
+  color: white;
+  letter-spacing: 25px;
+  background-color: #37505f;
+  box-shadow: 0 9px 8px grey;
+  text-shadow: 0px 7px 10px #282828;
+  margin: auto;
+  border: none;
+  font-style: thin;
+}
